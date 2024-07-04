@@ -1,8 +1,8 @@
-Drop DATABASE IF EXISTS work;
+Drop DATABASE IF EXISTS employees_db;
 
-CREATE DATABASE work;
+CREATE DATABASE employees_db;
 
-\c work;
+\c employees_db;
 
 
 
