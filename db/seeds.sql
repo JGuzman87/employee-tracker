@@ -6,7 +6,7 @@ VALUES
 (4, 'Digital Services'),
 (5, 'Accounting');
 
-INSERT INTO role (title, salary, department_id)
+INSERT INTO "role" (title, salary, department_id)
 VALUES
 ('AVP', 90000.00, 1),
 ('Manager', 60000.00, 2),
@@ -23,6 +23,5 @@ VALUES
 ('Red', 'XIII', 4, 4),
 ('Jimmy', 'Neutron', 5, 5);
 
-SELECT * 
-FROM employee
+
 
